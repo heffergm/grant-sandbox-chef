@@ -1,5 +1,5 @@
 # installation
-default.sensu.version = "0.10.0-1"
+default.sensu.version = "0.10.0-2"
 default.sensu.use_unstable_repo = false
 default.sensu.directory = "/etc/sensu"
 default.sensu.log_directory = "/var/log/sensu"
@@ -8,7 +8,7 @@ default.sensu.use_embedded_ruby = false
 default.sensu.service_max_wait = 10
 
 # rabbitmq
-default.sensu.rabbitmq.host = "localhost"
+default.sensu.rabbitmq.host = "10.181.137.87"
 default.sensu.rabbitmq.port = 5671
 default.sensu.rabbitmq.vhost = "/sensu"
 default.sensu.rabbitmq.user = "sensu"
